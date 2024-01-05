@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { logIn } from 'redux/operations';
+import { logIn } from '../../redux/operations';
 import css from './LoginPage.module.css';
 
 const LoginPage = () => {

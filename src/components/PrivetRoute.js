@@ -1,5 +1,5 @@
 import { Navigate } from 'react-router-dom';
-import { useAuth } from 'redux/useAuth';
+import { useAuth } from '../redux/useAuth';
 
 export const PrivateRoute = ({ component: Component, adressTo = '/' }) => {
   const { isLoggedIn, isRefreshing } = useAuth();
