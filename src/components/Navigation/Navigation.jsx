@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { useAuth } from 'redux/useAuth';
+import { useAuth } from '../../redux/useAuth';
 import css from './Navigation.module.css';
 
 export const Navigation = () => {

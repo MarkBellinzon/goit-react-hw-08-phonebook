@@ -1,64 +1,63 @@
 .container {
-    width: 1440px;
-    text-align: start;
+  width: 1440px;
+  text-align: start;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
   }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-    }
-  
-  .formemail,
-  .formpassword {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 32px;
-    align-items: center;
-    width: 400px;
-    height: 40px;
-    font-size: 18px;
-    text-align: left;
-    border-radius: 8px;
-     background-color: #fcdde5;
-    color: #0a6145;
-    border-color: #9c225f;
-  }
-  
-  .formlabel {
-    font-size: 16px;
-    margin-bottom: 8px;
-    width: 400px;
-  }
-  
-  .formbtn {
-    background-color: #ffdae2;
-    border: none;
-    border-radius: 8px;
-    color: #993366;
-    flex-grow: 1;
-    font-size: 16px;
-    height: 36px;
-    line-height: 20px;
-    width: 185px;
-    padding: 0 16px 0 16px;
-    cursor: pointer;
-  
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
-    0 0 100px #c999a4;
-  }
-  
-  .loginFormBtn:hover {
-    background-color: #ffdae2;
-    box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
-    0 0 100px #9e737d;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
+
+.formemail,
+.formpassword {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  text-align: left;
+  border-radius: 8px;
+   background-color: #fcdde5;
+  color: #0a6145;
+  border-color: #9c225f;
+}
+
+.formlabel {
+  font-size: 16px;
+  margin-bottom: 8px;
+  width: 400px;
+}
+
+.formbtn {
+  background-color: #ffdae2;
+  border: none;
+  border-radius: 8px;
+  color: #993366;
+  flex-grow: 1;
+  font-size: 16px;
+  height: 36px;
+  line-height: 20px;
+  width: 185px;
+  padding: 0 16px 0 16px;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
+  0 0 100px #c999a4;
+}
+
+.loginFormBtn:hover {
+  background-color: #ffdae2;
+  box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
+  0 0 100px #9e737d;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

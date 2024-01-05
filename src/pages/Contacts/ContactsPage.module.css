@@ -1,51 +1,50 @@
 .container {
-    width: 1440px;
+  width: 1440px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.title {
+  color: #40826d;
+ 
+}
+
+.scrollbar {
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 114px;
   }
   
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
+  .scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    /* background: #ce6464; */
   }
   
-  .title {
-    color: #40826d;
-   
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: rgb(113, 184, 160);
   }
   
   .scrollbar {
-    .scrollbar::-webkit-scrollbar {
-      width: 8px;
-      height: 114px;
-    }
-    
-    .scrollbar::-webkit-scrollbar-thumb {
-      border-radius: 12px;
-      /* background: #ce6464; */
-    }
-    
-    .scrollbar::-webkit-scrollbar-track {
-      background-color: rgb(113, 184, 160);
-    }
-    
-    .scrollbar {
-         float: right;
-      height: 230px;
-      margin-bottom: 25px;
-      margin-left: 22px;
-      margin-top: 20px;
-      margin-right: 5px;
-      width: 550px;
-      overflow-y: scroll;
-    }
-    
-    #style-1::-webkit-scrollbar {
-      width: 4px;
-      }
-    
-    #style-1::-webkit-scrollbar-thumb {
-      background-color: #000000;
-    }
+       float: right;
+    height: 230px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-right: 5px;
+    width: 550px;
+    overflow-y: scroll;
   }
   
+  #style-1::-webkit-scrollbar {
+    width: 4px;
+    }
+  
+  #style-1::-webkit-scrollbar-thumb {
+    background-color: #000000;
+  }
+}

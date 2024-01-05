@@ -29,9 +29,9 @@ const RegistrationPage = () => {
         autoComplete="on"
         required
       />
-      <label className={css.loginFormLabel}>Email </label>
+      <label className={css.formlabel}>Email </label>
       <input
-        className={css.loginFormEmail}
+        className={css.formemail}
         type="email"
         name="email"
         placeholder="across@mail.com"
