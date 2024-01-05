@@ -7,7 +7,7 @@ import { RestrictedRoute } from './RestrictedRoute';
 import { Loader } from './Loader/Loader';
 import Layout from './Layout';
 
-const HomePage = lazy(() => import('pages/Home/HomePage'));
+const HomePage = lazy(() => import('../pages/Home/HomePage'));
 const LoginPage = lazy(() => import('../pages/Login/LoginPage'));
 const RegistrationPage = lazy(() => import('../pages/Registration/RegistrationPage'));
 const ContactsPage = lazy(() => import('../pages/Contacts/ContactsPage'));
