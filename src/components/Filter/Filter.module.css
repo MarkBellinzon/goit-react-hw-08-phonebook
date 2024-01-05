@@ -1,15 +1,14 @@
 .input {
-  height: 30px;
-  margin-left: 20px;
-  background-color: #ebe9e9;
+  height: 35px;
+  background-color: #ffdae2;
   width: 300px;
-  border-radius: 4px;
-  color: rgb(160, 100, 11);
-  /* text-align: center; */
+  border-radius: 8px;
+  border-color: #ffdae2;
 }
 
 .text {
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-left: 120px;
+  margin-left: 100px;
+  margin-top: 30px;
 }

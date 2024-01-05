@@ -7,30 +7,35 @@
 .ttitle {
   font-size: 18px;
   font-family: cursive sans-serif;
-  color: rgb(30, 95, 73);
+  /* color: rgb(30, 95, 73); */
 }
 
 .input {
-  height: 25px;
+  height: 35px;
   margin-left: 20px;
-  background-color: #ebe9e9;
-  width: 200px;
-  border-radius: 2px;
-  color: rgb(160, 100, 11);
+  background-color: #ffdae2;
+  width: 300px;
+  border-radius: 8px;
+  border-color: #ffdae2;
+ 
 }
 
 .button {
-  width: 100px;
+  width: 200px;
   height: 30px;
   border-radius: 8px;
-  background-color: #ebe9e9;
+ 
+  background-color: #ffdae2;
   cursor: pointer;
-  color: rgb(160, 100, 11);
+  /* color: #40826d; */
+
+  box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
+  0 0 100px #c999a4;
 }
 
 .button:hover {
-  box-shadow: 0 0 5px #33a16e, 0 0 10px #33a16e, 0 0 20px #33a16e,
-    0 0 100px #33a16e;
+  box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
+    0 0 100px #9e737d;
   position: relative;
   transition-property: background-color, color;
   transition-duration: 0.5s;
