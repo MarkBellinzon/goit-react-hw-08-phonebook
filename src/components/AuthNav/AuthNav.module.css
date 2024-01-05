@@ -1,0 +1,38 @@
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+  }
+  
+  .linksList {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #993366;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .link:hover {
+    color: #40826d;
+  }
+  
+  .active {
+    color: #40826d;
+  }
+  
+  .active:hover {
+    color: #993366;
+  }
+  
