@@ -35,7 +35,7 @@
   border-color: #993366;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .formemail,
   .formpassword {
     width: 200px;
@@ -47,7 +47,7 @@
   .formpassword {
     width: 100px;
   }
-}
+} */
 
 .formlabel {
   font-size: 16px;
@@ -55,21 +55,19 @@
   width: 400px;
 }
 
-@media screen and (max-width: 768px) {
-  .formemail,
-  .formpassword {
+/* @media screen and (max-width: 768px) {
+  .formlabel {
     width: 200px;
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .formemail,
-  .formpassword {
+  .forformlabel {
     width: 100px;
     font-size: 12px;
   }
-}
+} */
 
 .formbtn {
   background-color: #ffdae2;

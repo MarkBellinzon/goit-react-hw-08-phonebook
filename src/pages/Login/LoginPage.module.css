@@ -39,7 +39,7 @@
   border-color: #9c225f;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .formemail,
   .formpassword {
     width: 200px;
@@ -53,7 +53,7 @@
     width: 100px;
     height: 10px;
   }
-}
+} */
 
 .formlabel {
   font-size: 16px;
