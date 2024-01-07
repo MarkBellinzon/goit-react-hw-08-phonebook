@@ -1,5 +1,5 @@
 .container {
-  width: 375px;
+  width: 1280px;
 }
 
 @media screen and (max-width: 768px) {
@@ -8,16 +8,16 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 375px) {
   .container {
-    width: 1280px;
+    width: 375px;
   }
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 24px;
   align-items: center;
 }
 
@@ -28,10 +28,10 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 375px) {
   .wrapper {
-    width: 1280px;
-    gap: 24px;
+    width: 375px;
+    gap: 14px;
   }
 }
 
