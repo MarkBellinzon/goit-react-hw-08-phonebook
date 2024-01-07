@@ -1,6 +1,18 @@
 .container {
-  width: 1440px;
+  width: 375px;
   text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
 }
 
 .form {
@@ -8,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  }
+}
 
 .formemail,
 .formpassword {
@@ -17,14 +29,30 @@
   margin: 0 auto;
   margin-bottom: 32px;
   align-items: center;
-  width: 400px;
-  height: 40px;
+  width: 100px;
+  height: 10px;
   font-size: 18px;
   text-align: left;
   border-radius: 8px;
-   background-color: #fcdde5;
+  background-color: #fcdde5;
   color: #0a6145;
   border-color: #9c225f;
+}
+
+@media screen and (max-width: 768px) {
+  .formemail,
+  .formpassword {
+    width: 200px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .formemail,
+  .formpassword {
+    width: 400px;
+    height: 40px;
+  }
 }
 
 .formlabel {
@@ -50,13 +78,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
-  0 0 100px #c999a4;
+    0 0 100px #c999a4;
 }
 
 .formbtn:hover {
   background-color: #ffdae2;
   box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
-  0 0 100px #9e737d;
+    0 0 100px #9e737d;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

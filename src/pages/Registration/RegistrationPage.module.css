@@ -1,14 +1,26 @@
 .form {
-  width: 1440px;
-    display: flex;
+  width: 375px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .form {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .form {
+    width: 1280px;
+  }
+}
+
 .formemail,
 .formpassword {
-  width: 400px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -23,10 +35,40 @@
   border-color: #993366;
 }
 
+@media screen and (max-width: 768px) {
+  .formemail,
+  .formpassword {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .formemail,
+  .formpassword {
+    width: 400px;
+  }
+}
+
 .formlabel {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 8px;
-  width: 400px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .formemail,
+  .formpassword {
+    width: 200px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .formemail,
+  .formpassword {
+    width: 400px;
+    font-size: 16px;
+  }
 }
 
 .formbtn {
@@ -46,12 +88,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
-  0 0 100px #c999a4;
+    0 0 100px #c999a4;
 }
 
 .formbtn:hover {
   background-color: #ffdae2;
   box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
-  0 0 100px #9e737d;
-
+    0 0 100px #9e737d;
 }
