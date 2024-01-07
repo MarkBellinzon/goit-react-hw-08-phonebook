@@ -3,8 +3,8 @@ import css from './HomePage.module.css';
 export default function HomePage() {
   return (
     <div className={css.container}>
+      <div className={css.cont}></div>
       <div>
-        <div className={css.cont}></div>
         <h1 className={css.title}>Create Edit Store</h1>
         <p className={css.text}>
           This site helps you to create and save phone numbers of your friends,
