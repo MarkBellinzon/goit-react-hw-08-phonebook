@@ -3,7 +3,6 @@ import css from './HomePage.module.css';
 export default function HomePage() {
   return (
     <div className={css.container}>
-      <div className={css.cont}></div>
       <div>
         <h1 className={css.title}>Create Edit Store</h1>
         <p className={css.text}>
@@ -16,7 +15,7 @@ export default function HomePage() {
         </p>
         {/* <p className={css.text}>you will dance with joy</p> */}
       </div>
-
+      <div className={css.cont}></div>
       {/* <img className={css.img} src="./public/cont.png" alt="contacts" /> */}
 
       {/* <iframe
