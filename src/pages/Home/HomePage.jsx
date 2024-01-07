@@ -13,12 +13,12 @@ export default function HomePage() {
           delete them. Thanks to registration, your contacts will be protected.
           Good luck!
         </p> */}
-        {/* <p className={css.text}>you will dance with joy</p> */}
+        <p className={css.text}>you will dance with joy</p>
       </div>
 
-      <img className={css.img} src="./public/cont.png" alt="contacts" />
+      {/* <img className={css.img} src="./public/cont.png" alt="contacts" /> */}
 
-      {/* <iframe
+      <iframe
         className={css.video}
         width="560"
         height="315"
@@ -27,7 +27,7 @@ export default function HomePage() {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe> */}
+      ></iframe>
     </div>
   );
 }
