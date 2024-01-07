@@ -6,6 +6,8 @@
   align-items: center;
   /* margin-left: 100px; */
   padding-left: 130px;
+  background-image: url('/public/cont.png');
+  opacity: 0.5;
 }
 
 .title {
@@ -46,5 +48,4 @@
 }
 
 .img {
-  
 }
