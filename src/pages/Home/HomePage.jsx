@@ -16,7 +16,7 @@ export default function HomePage() {
         {/* <p className={css.text}>you will dance with joy</p> */}
       </div>
 
-      <img className={css.img} src="/public/cont.png" alt="contacts" />
+      <img className={css.img} src="./public/cont.png" alt="contacts" />
 
       {/* <iframe
         className={css.video}
