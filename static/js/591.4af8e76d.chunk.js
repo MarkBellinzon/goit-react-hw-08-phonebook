@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[591],{591:function(e,t,n){n.r(t),n.d(t,{default:function(){return _}});var o="HomePage_container__8GNiX",a="HomePage_title__DWlEo",i="HomePage_text__KmHGP",c=n(184);function _(){return(0,c.jsx)("div",{className:o,children:(0,c.jsxs)("div",{children:[(0,c.jsx)("h1",{className:a,children:"Create Edit Store"}),(0,c.jsx)("p",{className:i,children:"you will dance with joy"})]})})}}}]);
+//# sourceMappingURL=591.4af8e76d.chunk.js.map
