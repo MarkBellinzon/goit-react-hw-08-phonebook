@@ -18,7 +18,7 @@ export default function HomePage() {
 
       {/* <img className={css.img} src="./public/cont.png" alt="contacts" /> */}
 
-      <iframe
+      {/* <iframe
         className={css.video}
         width="560"
         height="315"
@@ -27,7 +27,7 @@ export default function HomePage() {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 }

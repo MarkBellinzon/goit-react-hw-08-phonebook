@@ -11,6 +11,7 @@ body {
   display: flex;
   position: relative;
   background: #ffd1dc;
+  background-image: url('/public/cont.png');
   color: #0a6145;
   align-items: center;
   justify-content: center;
@@ -59,7 +60,6 @@ img {
   height: auto;
 }
 
-
 button {
   padding: 0;
   border: none;
@@ -68,6 +68,3 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-
-
-
