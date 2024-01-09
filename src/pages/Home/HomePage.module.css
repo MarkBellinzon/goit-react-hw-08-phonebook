@@ -1,7 +1,7 @@
 .container {
   width: 1280px;
   display: grid;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   /* position: absolute; */
   /* display: flex; */
   /* gap: 24px;
@@ -26,7 +26,7 @@
 }
 
 .cont {
-  width: 1280px;
+  /* width: 1280px; */
   background-image: url('/public/cont.png');
   opacity: 0.3;
   height: 900px;
@@ -70,14 +70,14 @@
 @media screen and (max-width: 768px) {
   .title {
     width: 768px;
-    font-size: 40px;
+    font-size: 48px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .title {
     width: 375px;
-    font-size: 32px;
+    font-size: 42px;
   }
 }
 
@@ -102,7 +102,7 @@
 .text {
   font-size: 28px;
   line-height: 1.45;
-  color: #993366;
+  color: #7c1448;
   font-weight: 20px;
   text-align: center;
   width: 700px;
