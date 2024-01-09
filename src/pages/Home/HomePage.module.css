@@ -28,7 +28,7 @@
 .cont {
   /* width: 1280px; */
   background-image: url('/public/cont.png');
-  opacity: 0.3;
+  opacity: 0.2;
   height: 1280px;
   text-align: center;
 }
@@ -36,7 +36,7 @@
 @media screen and (max-width: 768px) {
   .cont {
     width: 768px;
-    height: 700px;
+    /* height: 700px; */
   }
 }
 
