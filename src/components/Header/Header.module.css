@@ -14,14 +14,14 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    min-width: 375px;
+    /* min-width: 375px; */
     height: 100px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .header {
-    min-width: 320px;
+    /* min-width: 320px; */
     height: 80px;
   }
 }

@@ -35,14 +35,14 @@
 
 @media screen and (max-width: 768px) {
   .cont {
-    width: 768px;
+    /* width: 768px; */
     /* height: 700px; */
   }
 }
 
 @media screen and (max-width: 375px) {
   .cont {
-    width: 375px;
+    /* width: 375px; */
     height: 500px;
   }
 }
@@ -58,14 +58,14 @@
 
 @media screen and (max-width: 768px) {
   .texth {
-    width: 768px;
+    /* width: 768px; */
     padding-top: 50px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .texth {
-    width: 320px;
+    /* width: 320px; */
     padding-top: 30px;
   }
 }
@@ -83,14 +83,14 @@
 
 @media screen and (max-width: 768px) {
   .title {
-    width: 768px;
+    /* width: 768px; */
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .title {
-    width: 375px;
+    /* width: 375px; */
     font-size: 42px;
   }
 }
@@ -124,14 +124,14 @@
 
 @media screen and (max-width: 768px) {
   .text {
-    min-width: 500px;
+    /* min-width: 500px; */
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .text {
-    min-width: 320px;
+    /* min-width: 320px; */
     font-size: 16px;
   }
 }
