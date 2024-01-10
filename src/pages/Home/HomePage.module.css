@@ -124,14 +124,14 @@
 
 @media screen and (max-width: 768px) {
   .text {
-    width: 500px;
+    min-width: 500px;
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .text {
-    width: 320px;
+    min-width: 320px;
     font-size: 16px;
   }
 }
