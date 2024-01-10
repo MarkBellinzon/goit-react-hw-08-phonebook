@@ -49,7 +49,14 @@
 
 @media screen and (max-width: 375px) {
   .cont {
-    width: 500px;
+    width: 645px;
+    height: 1280px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cont {
+    width: 600px;
     height: 1280px;
   }
 }
@@ -80,8 +87,15 @@
 
 @media screen and (max-width: 375px) {
   .texth {
-    width: 609px;
-    padding-top: 30px;
+    width: 814px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .texth {
+    width: 728px;
+    padding-top: 10px;
   }
 }
 
