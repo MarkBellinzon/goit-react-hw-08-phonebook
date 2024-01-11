@@ -21,9 +21,21 @@
   }
 } */
 
+@media only screen and (min-width: 430px) {
+  .navWrapper {
+    width: 430px;
+  }
+}
+
+@media only screen and (min-height: 932px) {
+  .navWrapper {
+    width: 932px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .navWrapper {
-    gap: 20px;
+    gap: 10px;
   }
 }
 
