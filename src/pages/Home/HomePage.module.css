@@ -94,6 +94,13 @@
   }
 }
 
+@media only screen and (min-width: 430px) {
+  .texth {
+    width: 440px;
+    padding-top: 50px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .texth {
     width: 680px;
@@ -163,7 +170,14 @@
 @media screen and (max-width: 768px) {
   .text {
     width: 500px;
-    font-size: 22px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .text {
+    width: 350px;
+    padding-top: 50px;
   }
 }
 
