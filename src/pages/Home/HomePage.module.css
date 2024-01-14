@@ -82,22 +82,22 @@
 
 @media screen and (max-width: 1280px) {
   .texth {
-    width: 755px;
+    width: 1040px;
     padding-top: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .texth {
-    width: 600px;
+    width: 733px;
     padding-top: 50px;
   }
 }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (max-width: 430px) {
   .texth {
-    width: 440px;
-    padding-top: 50px;
+    width: 437px;
+    /* padding-top: 50px; */
   }
 }
 
@@ -174,7 +174,7 @@
   }
 }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (max-width: 430px) {
   .text {
     width: 350px;
     padding-top: 50px;

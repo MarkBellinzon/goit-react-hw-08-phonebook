@@ -14,20 +14,34 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   box-shadow: 0 0 5px #c999a4, 0 0 10px #c999a4, 0 0 20px #c999a4,
-  0 0 100px #c999a4;
+    0 0 100px #c999a4;
+}
+
+@media only screen and (max-width: 430px) {
+  .btn {
+    width: 90px;
+    padding: 5px 12px;
+  }
 }
 
 .btn:hover {
   box-shadow: 0 0 5px #9e737d, 0 0 10px #9e737d, 0 0 20px #9e737d,
-  0 0 100px #9e737d;
-position: relative;
-transition-property: background-color, color;
-transition-duration: 0.5s;
-transition-timing-function: ease-out;
+    0 0 100px #9e737d;
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
   color: #40826d;
 }
 
 .userName {
   font-weight: 500;
   margin: 0 0 16px;
+}
+
+@media only screen and (max-width: 430px) {
+  .userName {
+    width: 90px;
+    padding: 0px 12px;
+  }
 }

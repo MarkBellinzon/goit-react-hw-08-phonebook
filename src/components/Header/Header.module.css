@@ -16,27 +16,27 @@
   .header {
     max-width: 1070px;
     height: 120px;
-    margin-left: -148px;
+    /* margin-left: -148px; */
     margin-right: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 676px;
+    width: 720px;
     height: 100px;
-    margin-left: -42px;
+    margin-left: 15px;
     margin-right: 20px;
   }
 }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (max-width: 430px) {
   .header {
-    width: 430px;
+    width: 405px;
     height: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 15px 30px;
+    margin-left: 14px;
+    margin-right: 7px;
+    padding: 15px 20px;
   }
 }
 
