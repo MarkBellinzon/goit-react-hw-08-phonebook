@@ -56,6 +56,13 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .cont {
+    width: 437px;
+    /* padding-top: 50px; */
+  }
+}
+
 @media screen and (max-width: 375px) {
   .cont {
     width: 645px;
