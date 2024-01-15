@@ -59,7 +59,7 @@
 @media only screen and (max-width: 430px) {
   .cont {
     width: 437px;
-    /* padding-top: 50px; */
+    height: 560px;
   }
 }
 
@@ -97,7 +97,7 @@
 @media screen and (max-width: 768px) {
   .texth {
     width: 733px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 }
 
@@ -137,6 +137,13 @@
   .title {
     width: 768px;
     font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .title {
+    width: 457px;
+    padding-top: 2px;
   }
 }
 
@@ -184,7 +191,6 @@
 @media only screen and (max-width: 430px) {
   .text {
     width: 350px;
-    padding-top: 50px;
   }
 }
 
